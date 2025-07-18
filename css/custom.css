@@ -1,0 +1,66 @@
+.logo{
+    width: 250px;
+}
+.appoinment-bg{
+    background-image: url("../img/medical_solution_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+/* Testimonial Container Styling */
+.testimonial-container-style {
+    background: linear-gradient(135deg, #ffffff, #f8f9fa);
+    padding: 20px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    
+
+
+
+}
+.testimonial-container-inner-box{
+    background-image: url(../img/testimonial-icon.png);
+    background-repeat: no-repeat;
+    background-size: 75px;
+    /* background-position: right; */
+    background-position-x: right;
+    background-position-y: top;
+    padding: 35px 15px;
+}
+.testimonial-container-style:hover {
+    transform: scale(1.05);
+}
+
+/* Headline Styling */
+.testimonial-container-style h4 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Note Styling */
+.testimonial-container-style p {
+    font-size: 16px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Name Styling */
+.testimonial-container-style h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #343a40;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonial-container-style {
+        width: 90%;
+    }
+}

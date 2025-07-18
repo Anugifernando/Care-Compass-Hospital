@@ -1,0 +1,124 @@
+:root{
+    --secondary: #FFD65A;
+    --primary: #0D92F4;
+    
+}
+.color-primary{
+    color: var(--secondary);
+}
+.color-secondary{
+    color: var(--primary);
+}
+body{
+    font-family: "Roboto", serif;
+}
+.primary{
+    background-color: var(--primary);
+}
+.secondary{
+    background-color: var(--secondary);
+}
+.topbar{
+    background-color: var(--primary);
+    padding: 12px 0px;
+    color: white;
+}
+.topbar a{
+    color: white;
+    text-decoration: none;
+}
+.boxofsearch{
+    position: relative;
+    top: -60px;
+}
+.section{
+    margin: 60px 0px;
+}
+.appointment label{
+    color: rgb(235, 235, 235);
+}
+.btn-compass{
+    box-shadow: 3px 3px 4px 1px #0000004f;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.underline{
+    width: 120px;
+    background-color: var(--secondary);
+    height: 7px;
+}
+
+
+
+.owl-dot {
+  
+    background-color: #ccc;
+    /* Default dot color */
+    border-radius: 50%;
+    margin: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.owl-dot {
+    background-color: #ccc !important;
+    border-radius: 0px;
+    width: 35px;
+    height: 10px;
+}
+
+.owl-dot.active {
+    background-color: var(--secondary) !important;
+    /* Active dot color */
+}
+.testimonials{
+    background-image: url(../img/tesi_img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.testimonials-content{
+    height: 600px;
+    padding: 150px 0px;
+}
+.footer{
+    color: white;
+}
+.area-of-menu ul li{
+    margin: 10px 0px;
+}
+.breadcrumb-text{
+    bottom: 225px;
+    position: relative;
+}
+
+.breadcrumb-head {
+    background-image: url(../img/breadcrumb.jpg);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 275px 0px 50px 0px;
+}
+.breadcrumb a{
+    text-decoration: none;
+    color: black;
+}
+.text-left{
+    text-align: left !important;
+
+}
+.slider-caption{
+    background-color: #000000a4;
+    bottom: 300px;
+    padding: 40px;
+}
+.breadcrumb-head h1, .breadcrumb a, .breadcrumb-item+.breadcrumb-item::before, .breadcrumb-item.active{
+    color: white;
+}
+
+
+
+
+
